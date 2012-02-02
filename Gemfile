@@ -4,6 +4,14 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
+gem 'jquery-rails'
+
+source 'http://rubygems.org'
+
+gem 'rails', '3.1.3'
+
+gem 'sqlite3'
+
 group :development do
   gem 'rspec-rails', '2.0.0.beta.18'
 end
@@ -11,3 +19,5 @@ end
 group :test do
   gem 'rspec', '2.0.0.beta.18'
 end
+
+
